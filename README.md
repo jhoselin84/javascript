@@ -17,7 +17,7 @@ Memoria
 entrada --> processamento --> saida
 ```
 
-## operadores Aritimeticos
+## Operadores Aritimeticos 
 | Operador| Proposito| Exemplo| Resultado|
 |---------|----------|--------|----------|
 | = | atribuir um valor | x =10| x=10
