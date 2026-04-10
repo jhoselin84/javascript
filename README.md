@@ -17,7 +17,7 @@ Memoria
 entrada --> processamento --> saida
 ```
 
-## Operadores Aritimeticos 
+## Operadores Aritméticos
 | Operador| Proposito| Exemplo| Resultado|
 |---------|----------|--------|----------|
 | = | atribuir um valor | x =10| x=10
@@ -30,8 +30,8 @@ entrada --> processamento --> saida
 |/ |dividir|20 - 10/ 2 | 10|
 |/= |dividir e atribuir| x/=2|10|
 |++|somar 1 ao resultado|x++|11|
-|--|subtrair  1 do resultado|x--|9|
-|%|resto da divisão|9%3|0|
+|--|subtrair  1 do resultado|x--|10|
+|%|resto da divisao|10%3|1|
 
 
 
