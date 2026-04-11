@@ -24,6 +24,7 @@ let vip = true
 console.log (vip)
 console.log(typeof(vip))
 
+
 console.log("")
 console.log("--------------------")
 console.log(   "ficha do aluno"  )
@@ -35,5 +36,9 @@ console.log(`idade:${idade}`)
 console.log(`peso:${peso}`)
 console.log(`altura:${altura}`)
 console.log(`vip:${vip}`)
+console.log(`icm:${(peso/(altura*altura)).toFixed(2)}`)
+//.toFied(2) fornata o resultado em 2 casa decimais 
+console.log(`fcm:${208-0.7*(idade)}bpm`)
+
 console.log("--------------------")
 
