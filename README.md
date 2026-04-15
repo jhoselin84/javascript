@@ -33,7 +33,25 @@ entrada --> processamento --> saida
 |--|subtrair  1 do resultado|x--|10|
 |%|resto da divisao|10%3|1|
 
+## operadores logicos 
+
+| Operadores  | Simbolofia |
+|-------------|------------|
+| AND |&& |
+|OR  | \|\| |
+|NOT  | ! |
 
 
 
+
+
+## Comparadores
+| Comparador | Significado |
+|-------------|------------|
+|>      | maior que |
+|>=     |maior ou igual|
+|<      |menor que |
+|<=     |  menor ou igual a|
+|===    |identico a |
+|!==    |não identico a|
 |
