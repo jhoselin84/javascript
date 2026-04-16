@@ -35,7 +35,7 @@ entrada --> processamento --> saida
 
 ## operadores logicos 
 
-| Operadores  | Simbolofia |
+| Operadores  | Simbologia |
 |-------------|------------|
 | AND |&& |
 |OR  | \|\| |
@@ -54,4 +54,23 @@ entrada --> processamento --> saida
 |<=     |  menor ou igual a|
 |===    |identico a |
 |!==    |não identico a|
+
+
+## estruturas de controle 
+### estruturas de controle condicionais
+``` javascript
+if (condicão){
+// condição verdadeira
+}
+
+
+if (consição ){
+//condiççao verdadeira
+} else {
+// condição falsa
+}
+
+```
+
 |
+
