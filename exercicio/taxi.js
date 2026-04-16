@@ -27,3 +27,4 @@ total= valorfixo+(km * valorkm)
 
 console.log(`total da corrida:${total.toFixed(1)}`)
 
+ 
