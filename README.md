@@ -71,6 +71,22 @@ if (consição ){
 }
 
 ```
+if(condição 1) {
+//condição 1 verdadeira 
+} else if (condição 2) {
+//condição 2 verdadeira 
+}else{
+//se nenhuma das condiçoes anteriores for verdadeira 
+}
 
-|
-
+```
+switech(valor){
+case 1
+//codigo caso o valor  seja 1
+break
+case 2
+//codigo caso o valor  seja 2
+break
+default:
+//codigo caso o valor seja diferente de 1 ou 2
+break 
