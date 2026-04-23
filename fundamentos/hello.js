@@ -3,4 +3,4 @@
  * @author jhoseline
  * 
  */
-console.log("hello Word");
+ console.log("hello Word")()

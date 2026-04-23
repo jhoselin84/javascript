@@ -1,16 +1,16 @@
-//** convertor de gasolina
-// @uthor*/
+ //** convertor de gasolina
+ // @uthor*/
 
-//importaão de pacote
-const prompt= require(`prompt-sync`)()
+ //importaão de pacote
+ const prompt= require(`prompt-sync`)()
 
-//variaveis 
-let etanol, gasolina,
+ //variaveis 
+ let etanol, gasolina
 
-console.clear()
-console.log ("etanol x gasolina")
+ console.clear()
+ console.log ("etanol x gasolina")
 
-//entrada 
+ //entrada 
  etanol=Number(prompt("digite do litro do etanol:"))
  gasolina=Number(prompt("digite do litro da gasolina:"))
  
@@ -19,6 +19,6 @@ console.log ("etanol x gasolina")
     
  } else {
     console.log()
- }()
-
+ } 
+ 
 
