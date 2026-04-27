@@ -90,3 +90,10 @@ break
 default:
 //codigo caso o valor seja diferente de 1 ou 2
 break 
+
+### Laços de repetição
+``` javascript
+for(let i=1; i< 10;i ++) {
+//o codigo e repetido enquanto a condição for verdadeira
+}
+```
