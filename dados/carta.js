@@ -17,4 +17,4 @@ prompt("pressione a tecla [enter] para sortear uma carta")
 let nipe = nipes[Math.floor(Math.random() * 4)]
 let face = faces[Math.floor(Math.random() * 13)]
 
-console.log(`${face}${nipe}`)
+console.log(`${face}${nipe}`.read)
