@@ -34,6 +34,10 @@ function raizquadrada(num1) {
     return Math.sqrt(num1)
 }
 
+function porcentagem(num1, num2) {
+    return (num1 * num2) / 100
+}
+
 //====================================================
 //funcao principal(main)
 function iniciarCalculadora() {
@@ -63,15 +67,22 @@ function iniciarCalculadora() {
                 resultado = multiplicar(num1, num2)
                 break
 
-                case 4:
+            case 4:
                 num1 = Number(prompt("digite o primeiro numero:"))
                 num2 = Number(prompt("digite o segundo  numero:"))
-                resultado = dividir(num1*num2)
+                resultado = dividir(num1,num2)
                 break
             case 5:
                 num1 = Number(prompt("digite o primeiro numero:"))
-                num2 = Number(prompt("digite o segundo  numero:"))
+                
                 resultado = raizquadrada(num1)
+
+                break
+            case 6:
+                num1 = Number(prompt("digite o valor:"))
+                num2 = Number(prompt("digite a porcentagem (%):")) 
+                resultado = porcentagem(num1,num2)
+                break
 
                 break
             default:
@@ -97,6 +108,7 @@ function mostraMenu() {
     console.log("3. multiplicar")
     console.log("4. dividir")
     console.log("5. raiz quadrada")
+    console.log("6. porcentagem")
     console.log("0. sair ")
 }
 
